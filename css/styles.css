@@ -147,6 +147,12 @@ body {
 
 }
 
+@font-face{
+	font-family: 'Philosopher';
+	src: url("../fonts/Philosopher-Regular.ttf");
+	
+}
+
 
 .perform {
 	color: #fefefe; 
@@ -163,6 +169,7 @@ body {
 }
 .transit2 {
 	float: right;
+	padding-right: 10px;
 }
 div a.transit1:hover {
 	color: #ECE4CD;
@@ -237,7 +244,7 @@ header {
 .booth1 {
 	max-width: 115px;
 	min-height: 153px;    
-	margin: 20px;
+	margin: 21px;
 
 
 }
@@ -246,16 +253,31 @@ header {
 	min-height: 152px;
 	margin: 0 20px 20px 60px;
     display: block;
+    margin-top: 15px;
 
 
 }
 .title-form{
-    margin-top: 40px;
+    margin-top: 25px;
 	color: #000; 
 	font-family: "BebasNeueBold", sans-serif;
 	font-size: 36px;
 	text-transform: uppercase;
 	text-align: center;
+}
+.title-form2{
+	color: #000; 
+	font-family: "Philosopher", sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+}
+.title-form3{
+    color: #000;
+    font-family: "Philosopher", sans-serif;
+    font-size: 1.1em;
+    text-align: center;
 }
 .introduct1, .introduct2 {
 	background: rgba(0, 0, 0, 0.0);
@@ -271,7 +293,7 @@ header {
 	
 } 
 .introduct1 {
-	margin-top: 32px;
+	margin-top: 25px;
 
 }
 .send {
@@ -291,7 +313,8 @@ header {
 	border: none;
 	display: block;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 .send:hover {
 	cursor: pointer;
@@ -422,7 +445,16 @@ header {
 }
 
 .fontrub {
-	font-size: 18px;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: "PTSans", sans-serif;    
+	text-align: center;
+	margin-top: 10px;
+	text-decoration: line-through;
+
+}
+.fontrub2 {
+	font-size: 20px;
 	font-weight: 600;
 	font-family: "PTSans", sans-serif;    
 	text-align: center;
@@ -437,7 +469,7 @@ header {
 .order {
 	color: #000; 
 	font-family: "BebasNeueBold";
-	font-size: 24px;
+	font-size: 20px;
 	background-color: white;
 	border: 3px solid black;
 	padding: 6px 0;
@@ -804,6 +836,11 @@ ol.carousel-indicators {
 	right: 30px;
 	display:none;
 	text-indent:-9999px;
+
+}
+.crossout {
+	 /*text-decoration: underline;*/
+	color: #F9CB3B;
 
 }
 
