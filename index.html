@@ -47,22 +47,36 @@
             <header>
                 <div class = "container">
                     <div class = "row">
-                        <div class = "col-lg-6 col-md-12 col-sm-12">
+                        <div class = "col-lg-3 col-md-6 col-sm-6">
                             <div class="color">
-                                <p class="perform">Дачный мастер (813) 413 28 24</p>
+                                <p class="perform">Дачный мастер <br>(813) 413 28 24</p>
                                 
                             </div>
                         </div>
-                        <div class = "col-lg-3 col-md-6 col-sm-12">
+
+
+                        <div class = "col-lg-3 col-md-6 col-sm-6">
                             <div class="color">
-                                <a class="transit1" href="#transition1">Каталог туалетов</a>
+                                <a class="transit1" href="#transition1">Готовые туалеты </a>
+                            </div>
+                        </div>
+
+
+
+                        <div class = "col-lg-3 col-md-6 col-sm-6">
+                            <div class="color">
+                                <a class="transit2" href="#transition2">Готовые души и беседки</a>
                                 
                             </div>
                         </div>
-                        <div class = "col-lg-3 col-md-6 col-sm-12 color">
-                                <a class="transit2" href="#transition2">Каталог душей и беседок</a>
-                            
+
+                        <div class = "col-lg-3 col-md-6 col-sm-6">
+                            <div class="color">
+                                <a class="transit3" href="#transition3">На заказ </a>
+                            </div>
                         </div>
+
+
                     </div>
                 </div>
 
@@ -502,7 +516,7 @@
                 
             </div>
 
-            <div class="sentence">
+            <div class="sentence" id="transition3">
                 <div class = "container">
                     <div class = "row">
                         <div class = "col-lg-6 col-md-6 col-sm-12 col-sm-12">
@@ -627,7 +641,7 @@
                          <div class = "col-lg-6 col-md-6 col-sm-12 col-sm-12">
                             <div class="foot2">
                                 <h3 class="titl6">Вы можете посмотреть изделия по адресу:</h3>
-                                <p class="p1">г. Нижний Новгород, ул.Канавинская, 2а<br>
+                                <p class="p1">г. Нижний Новгород, ул. Канавинская, 2а<br>
                                                 тел. (831) 413 - 28 - 24</p>
                                 <p class="p2">Либо оставте ваши контакты и мы вам перерезвоним:</p>
                                 <form class="form">
@@ -774,19 +788,29 @@
             $(document).ready(function(){
                 $(function(){
 
-                $('.transit1').on('click', function(e){
-                    $('html,body').stop().animate({ scrollTop: $('#transition1').offset().top }, 1000);
-                  e.preventDefault();
-                });
+                    $('.transit1').on('click', function(e){
+                        $('html,body').stop().animate({ scrollTop: $('#transition1').offset().top }, 1000);
+                      e.preventDefault();
+                    });
 
                 });
 
                 $(function(){
 
-                $('.transit2').on('click', function(e){
-                    $('html,body').stop().animate({ scrollTop: $('#transition2').offset().top }, 1000);
-                  e.preventDefault();
+                    $('.transit2').on('click', function(e){
+                        $('html,body').stop().animate({ scrollTop: $('#transition2').offset().top }, 1000);
+                      e.preventDefault();
+                    });
+
                 });
+
+
+                $(function(){
+
+                    $('.transit3').on('click', function(e){
+                        $('html,body').stop().animate({ scrollTop: $('#transition3').offset().top }, 1000);
+                      e.preventDefault();
+                    });
 
                 });
             });

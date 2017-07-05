@@ -158,17 +158,20 @@ body {
 	color: #fefefe; 
 	font-family: "BebasNeueBold", sans-serif;
 	font-size: 26px;
+	text-align: center;
 }
-.transit1, .transit2 {
+.transit1, .transit2, .transit3 {
 	text-decoration: underline;
 	color: #fff; 
 	font-family: "BebasNeueRegular", sans-serif;
 	font-size: 24px;
 	text-decoration: underline;
+	display: block;
+    text-align: center;
 
 }
 .transit2 {
-	float: right;
+	/*float: right;*/
 	padding-right: 10px;
 }
 div a.transit1:hover {
@@ -176,6 +179,9 @@ div a.transit1:hover {
 
 }
 div a.transit2:hover {
+	color: #ECE4CD;
+}
+div a.transit3:hover {
 	color: #ECE4CD;
 }
 
@@ -598,6 +604,10 @@ a.order:focus {
 	border: none;
 
 }
+/*.color {
+	outline: 1px solid red;
+
+}*/
 button:active, button:focus {
 		outline: none;
 
@@ -618,8 +628,8 @@ button::-moz-focus-inner {
 }
 .inform4, .inform5 {
 	background: rgba(0, 0, 0, 0.0);
-	font-family: "PTSans";
-	font-family: "PTSans";
+	/*font-family: "PTSans";*/
+	font-family: "PTSans", sans-serif;
 	color: white;
 	border: 1px solid white;
 	/*margin: 6px;*/
