@@ -358,13 +358,13 @@ header {
 
 }
 .range {
-	background-image: url(../images/range.gif);
+	background-image: url(../images/wood.jpg);
 	min-height: 233px;
 
 }
 .assortm {
 	color: #000; 
-	font-family: "BebasNeueBold";
+	font-family: "BebasNeueBold", sans-serif;
 	font-size: 30px;
 	text-align: center;
 
@@ -381,7 +381,7 @@ header {
 .roster1, .roster2 {
 	color: #000; 
 	font-family: "MyriadPro", sans-serif;
-	font-family: "PTSans";
+	font-family: "PTSans", sans-serif;
 	font-size: 24px;
 
 }
@@ -515,7 +515,7 @@ a.order:focus {
 }
 .sentence {
 	min-height: 430px;
-	background-image: url(../images/range.gif);
+	background-image: url(../images/wood.jpg);
 	padding-top: 40px;
 	padding-bottom: 20px;
 
@@ -527,7 +527,7 @@ a.order:focus {
 	background-image: url(../images/back-n1.png);
 
 	color: #000;
-	font-family: "BebasNeueBold";
+	font-family: "BebasNeueBold", sans-serif;
 	font-size: 36px;
     width: 420px;
     height: 63px;
@@ -551,12 +551,12 @@ a.order:focus {
 .titl5 {
 
     color: #000;
-    font-family: "BebasNeueBold";
+    font-family: "BebasNeueBold", sans-serif;
     font-size: 36px;
 }
 .capabil {
 	color: #000;
-	font-family: "BebasNeueBold";
+	font-family: "BebasNeueBold", sans-serif;
 	font-size: 25px;
 	margin-top: 20px;
 	margin-top: 20px;
@@ -565,7 +565,7 @@ a.order:focus {
 }
 .direction {
 	color: #000; 
-	font-family: "BebasNeueBold";
+	font-family: "BebasNeueBold", sans-serif;
 	font-size: 36px;
 	margin-top: 20px;
 	float: left;
@@ -590,7 +590,7 @@ a.order:focus {
 }
 .but1 {
 	color: #fff; 
-	font-family: "BebasNeueRegular";
+	font-family: "BebasNeueRegular", sans-serif;
 	font-size: 24px;
 	width: 150px;
 	height: 44px;
@@ -620,8 +620,8 @@ button::-moz-focus-inner {
 	background: rgba(0, 0, 0, 0.0);
 	border: 1px solid black;
 	color: black;
-	font-family: "BebasNeueRegular";
-	font-family: "PTSans";
+	font-family: "BebasNeueRegular", sans-serif;
+	font-family: "PTSans", sans-serif;
 	font-size: 18px;
 	padding-left: 12px;
 
@@ -667,10 +667,10 @@ button::-moz-focus-inner {
 
 }
 
-::-webkit-input-placeholder {color: black;}
-::-moz-placeholder          {color: black;}/* Firefox 19+ */
-:-moz-placeholder           {color: black;}/* Firefox 18- */
-:-ms-input-placeholder      {color: black;}
+::-webkit-input-placeholder {color: #504837;}
+::-moz-placeholder          {color: #504837;}/* Firefox 19+ */
+:-moz-placeholder           {color: #504837;}/* Firefox 18- */
+:-ms-input-placeholder      {color: #504837ed;}
 
 .inform4::-webkit-input-placeholder {color: white;}
 .inform4::-moz-placeholder          {color: white;}/* Firefox 19+ */
@@ -726,7 +726,8 @@ button::-moz-focus-inner {
 
 }
 .foot1 {
-	background-image: url(../images/backfoot.gif);
+	/*background-image: url(../images/backfoot.gif);*/
+	background-image: url(../images/backfootg.PNG);
 	max-width: 720px;
 	min-height: 444px;
 	
@@ -749,18 +750,18 @@ button::-moz-focus-inner {
 }
 .titl6 {
 	color: #fff;
-	font-family: "BebasNeueRegular";
+	font-family: "BebasNeueRegular", sans-serif;
 	font-size: 24px;
 }
 .p1 {
 	color: #fff;
-	font-family: "PTSans";
+	font-family: "PTSans" ;
 	font-size: 18px;
 	
 }
 .p2 {
 	color: #FFF15F;
-	font-family: "BebasNeueRegular";
+	font-family: "BebasNeueRegular", sans-serif;
 	font-size: 24px;
 	margin: 30px 0 30px auto;
 }
@@ -952,11 +953,6 @@ ol.carousel-indicators {
 
 }
 @media screen and (max-width: 450px) {
-  	/* 	.inform3 {
-   		max-width: 400px;
-
-   	}*/
-
    	.story { 
 		padding: 7px;
 
