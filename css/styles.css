@@ -358,7 +358,7 @@ header {
 
 }
 .range {
-	background-image: url(../images/wood.jpg);
+	background-image: url(../images/iq.png);
 	min-height: 233px;
 
 }
@@ -372,6 +372,8 @@ header {
 .assor {
 	display: block;
     margin: 43px auto 27px auto;
+    width: 64px;
+    height: 64px;
 	
 }
 .wrap {
@@ -385,12 +387,36 @@ header {
 	font-size: 24px;
 
 }
-.roster1 {
+/*.roster1 {
     list-style-image: url(../images/tick.gif);
 
+}*/
+/*.roster2 {*/
+    /*list-style-image: url(../images/cross.gif);*/
+    /*list-style-image: url(../images/cross2.png);*/
+/*}*/
+.roster1 li {
+	margin-top: 15px;
+
 }
-.roster2 {
-    list-style-image: url(../images/cross.gif);
+.roster2 li {
+	margin-top: 15px;
+
+}
+.marker1, .marker2 {
+	float: left;
+	height: 100%;
+	margin-right: 15px;
+	width: 32px;
+	height: 30px;
+
+
+}
+.carousel-indicators li.active {
+	background-color: #A0A4A3;
+	/*margin: 1px;*/
+
+
 }
 .titl2 {
 	color: #000; 
@@ -408,6 +434,10 @@ header {
 	padding-top: 80px;
 	margin-bottom: 40px;
 
+}
+.carousel-indicators li {
+	margin: 0px;
+	
 }
 .col {
 	padding-top: 70px;
@@ -432,6 +462,9 @@ header {
 	padding-bottom: 40px;
 
 } 
+.goods {
+	position: relative;
+}
 .descr {
 	min-height: 150px;
     text-align: center;
@@ -515,7 +548,7 @@ a.order:focus {
 }
 .sentence {
 	min-height: 430px;
-	background-image: url(../images/wood.jpg);
+	background-image: url(../images/iq.png);
 	padding-top: 40px;
 	padding-bottom: 20px;
 
@@ -546,7 +579,7 @@ a.order:focus {
 }
 .col1, .col2 {
 	padding-left: 5px;
-
+	padding-right: 5px;
 }
 .titl5 {
 
@@ -624,7 +657,6 @@ button::-moz-focus-inner {
 	font-family: "PTSans", sans-serif;
 	font-size: 18px;
 	padding-left: 12px;
-
 }
 .inform4, .inform5 {
 	background: rgba(0, 0, 0, 0.0);
@@ -648,29 +680,26 @@ button::-moz-focus-inner {
 	height: 40px;
 	margin-top: 6px;
 	margin-bottom: 6px;
-    width: 230px;
-
+	width: 49.5%;
 }
 .inform1 {
-	margin-right: 6px;
-
+	margin-right: 1%;
 }
 .inform3  {
-	width: 468px;
+	width: 100%;
 	height: 95px;
 	margin-top: 6px;
 	margin-bottom: 6px;
-
 }
 .inform1 {
 	float: left;
 
 }
 
-::-webkit-input-placeholder {color: #504837;}
-::-moz-placeholder          {color: #504837;}/* Firefox 19+ */
-:-moz-placeholder           {color: #504837;}/* Firefox 18- */
-:-ms-input-placeholder      {color: #504837ed;}
+::-webkit-input-placeholder {color: black;}
+::-moz-placeholder          {color: black;}/* Firefox 19+ */
+:-moz-placeholder           {color: black;}/* Firefox 18- */
+:-ms-input-placeholder      {color: black;}
 
 .inform4::-webkit-input-placeholder {color: white;}
 .inform4::-moz-placeholder          {color: white;}/* Firefox 19+ */
@@ -854,8 +883,60 @@ ol.carousel-indicators {
 	color: #F9CB3B;
 
 }
+.restroom {
+	width: 215px;
+	height: 286px;
+    float: left;
+    display: block;
+	margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    left: 18%;
+    right: 18%;
 
-
+}
+.hit {
+	width: 82px;
+	height: 82px;
+	position: absolute;
+    right: 0;
+    display: block;
+}
+.rest {
+	width: 286px;
+    height: 286px;
+    left: 7%;
+}
+.rest2 {
+	width: 263px;
+    height: 286px;
+    left: 10%;
+}
+.rest3 {
+	width: 262px;
+    height: 284px;
+    left: 10%;
+}
+.rest4 {
+	width: 268px;
+    height: 286px;
+    left: 10%
+}
+.rest5 {
+	width: 263px;
+    height: 285px;
+    left: 11%;
+}
+.rest6 {
+	width: 263px;
+    height: 283px;
+    left: 10%;
+}
+.rest7 {
+	width: 275px;
+    height: 286px;
+    left: 8%;
+}
 
 
 
@@ -933,7 +1014,11 @@ ol.carousel-indicators {
 }
 @media screen and (max-width: 550px) {
    	.inform3 {
-   		width: 350px;
+   		/* max-width: 350px; */
+   	}
+   	.foot2 {
+   		padding-left: 25px;
+   		padding-right: 10px;
 
    	}
 
@@ -967,4 +1052,9 @@ ol.carousel-indicators {
    	}
 
 
+}
+@media screen and (max-width: 411px) {
+	img.underlin {
+    display:none;
+}
 }
